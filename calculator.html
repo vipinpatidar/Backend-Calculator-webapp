@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        form{
+            
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        input{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/" method="post">
+    <input class="num1" type="text" name="num1" placeholder="first no.">
+    <input class="num2" type="text" name="num2" placeholder="second no.">
+    <button class="calbtn" type="submit" name="submit">Calculator</button>
+    
+   </form>
+   <!-- <script type="text/javascript">
+   let num1 = document.querySelector(".num1").value
+   let num2 = document.querySelector(".num2").value
+   let answer = document.querySelector(".ans")
+   let btn = document.querySelector(".calbtn")
+
+   btn.addEventListener("click",function(){
+       let add = num1 + num2;
+       answer.value = add;
+   })
+   </script> -->
+</body>
+</html>
